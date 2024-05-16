@@ -1,0 +1,15 @@
+task: 'stmc'
+gpus: [0]
+exp_name: 'stmc'
+
+
+train_dataset_module: lib.datasets.stmc.dataset
+test_dataset_module: lib.datasets.stmc.dataset
+network_module: lib.networks.stmc.network
+loss_module: lib.train.losses.stmc
+evaluator_module: lib.evaluators.stmc
+
+
+dataset: humanml3d
+batch_size: 32
+num_frames: 60
