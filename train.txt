@@ -1,0 +1,9 @@
+python run.py --type dataset --cfg_file configs/STMC/stmc.yaml
+
+python run.py --type network --cfg_file configs/STMC/stmc.yaml
+
+python run.py --type generate --cfg_file configs/STMC/stmc.yaml
+
+python run.py --type generate_mtt --cfg_file configs/STMC/stmc.yaml
+
+python run.py --type evaluate --cfg_file configs/STMC/stmc.yaml
